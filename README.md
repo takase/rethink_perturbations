@@ -39,14 +39,17 @@ python -u train.py \
     --share-all-embeddings --keep-last-epochs 20 --seed 1 --save-dir model-save-dir
 ```
 
+You might want to set `--clip-norm` to 1.0 if training diverges.
+
+`--sampling-method` specifies the type of the perturbations.
 To use other perturbations, check the following list:
 
-* Rep(Uni): uniform
-* Rep(Sim): similarity
-* WDrop: worddrop
-* Rep(Uni)+WDrop: worddrop_with_uni
-* Rep(Sim)+WDrop: worddrop_with_sim
-* Rep(SS): condprob
+* Rep(Uni): `uniform`
+* Rep(Sim): `similarity`
+* WDrop: `worddrop`
+* Rep(Uni)+WDrop: `worddrop_with_uni`
+* Rep(Sim)+WDrop: `worddrop_with_sim`
+* Rep(SS): `condprob`
 
 ### Test (decoding)
 
