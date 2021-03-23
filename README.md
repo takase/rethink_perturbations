@@ -39,7 +39,7 @@ python -u train.py \
     --share-all-embeddings --keep-last-epochs 20 --seed 1 --save-dir model-save-dir
 ```
 
-You might want to set `--clip-norm` to 1.0 if training diverges.
+If training diverges, please set `--clip-norm` to 1.0.
 
 `--sampling-method` specifies the type of the perturbations.
 To use other perturbations, check the following list:
