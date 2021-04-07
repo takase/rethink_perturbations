@@ -2,9 +2,12 @@
 
 This repository contains transformers with perturbations used in our paper except for adversarial perturbations.
 
->Rethinking Perturbations in Encoder-Decoders for Fast Training
+>[Rethinking Perturbations in Encoder-Decoders for Fast Training](https://arxiv.org/abs/2104.01853)
 
 >Sho Takase, Shun Kiyono
+
+>Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies
+
 
 
 In addition, this document provides the way to train WMT En-De and IWSLT De-En with Rep(sim)+WDrop as examples.
