@@ -17,7 +17,7 @@ For adversarial perturbations, please ask @aonotas.
 
 ## Requirements
 
-- PyTorch version >= 1.4.0
+- PyTorch version == 1.4.0
 - Python version >= 3.6
 
 
